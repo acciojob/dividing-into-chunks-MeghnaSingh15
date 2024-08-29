@@ -19,9 +19,10 @@ const divide = (arr, n) => {
 	if(subArr.length>0){
 		result.push(subArr);
 	}
+	return result;
 	
 };
-return result;
+
 
 const n = prompt("Enter n: ");
 alert(JSON.stringify(divide(arr, n)));
